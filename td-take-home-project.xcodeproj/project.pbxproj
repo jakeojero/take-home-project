@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		564A86EF28062C2200A4090D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A86EE28062C2200A4090D /* AppDelegate.swift */; };
 		564A86F128062C2200A4090D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A86F028062C2200A4090D /* SceneDelegate.swift */; };
-		564A86F328062C2200A4090D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A86F228062C2200A4090D /* ViewController.swift */; };
-		564A86F628062C2200A4090D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A86F428062C2200A4090D /* Main.storyboard */; };
+		564A86F328062C2200A4090D /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A86F228062C2200A4090D /* CategoriesViewController.swift */; };
 		564A86F828062C2300A4090D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564A86F728062C2300A4090D /* Assets.xcassets */; };
 		564A86FB28062C2300A4090D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A86F928062C2300A4090D /* LaunchScreen.storyboard */; };
+		564A87042808CEAB00A4090D /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A87032808CEAB00A4090D /* CategoriesViewModel.swift */; };
+		564A87072808CF3300A4090D /* ShopService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A87062808CF3300A4090D /* ShopService.swift */; };
+		564A870A2808CFAE00A4090D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A87092808CFAE00A4090D /* Category.swift */; };
+		564A870C2808CFD500A4090D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A870B2808CFD500A4090D /* Product.swift */; };
+		564A870F2808D50000A4090D /* View+ConstraintHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A870E2808D50000A4090D /* View+ConstraintHelpers.swift */; };
+		564A87112808D80200A4090D /* NavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A87102808D80200A4090D /* NavigationHelper.swift */; };
+		564A87142808DEDB00A4090D /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A87132808DEDB00A4090D /* ProductsViewController.swift */; };
+		564A87162808E8C400A4090D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 564A87152808E8C400A4090D /* README.md */; };
+		564A87182808E8D600A4090D /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A87172808E8D600A4090D /* ProductsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		564A86EB28062C2200A4090D /* td-take-home-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "td-take-home-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		564A86EE28062C2200A4090D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		564A86F028062C2200A4090D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		564A86F228062C2200A4090D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		564A86F528062C2200A4090D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		564A86F228062C2200A4090D /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		564A86F728062C2300A4090D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		564A86FA28062C2300A4090D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		564A86FC28062C2300A4090D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564A87032808CEAB00A4090D /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		564A87062808CF3300A4090D /* ShopService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopService.swift; sourceTree = "<group>"; };
+		564A87092808CFAE00A4090D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		564A870B2808CFD500A4090D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		564A870E2808D50000A4090D /* View+ConstraintHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ConstraintHelpers.swift"; sourceTree = "<group>"; };
+		564A87102808D80200A4090D /* NavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHelper.swift; sourceTree = "<group>"; };
+		564A87132808DEDB00A4090D /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		564A87152808E8C400A4090D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		564A87172808E8D600A4090D /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,63 @@
 		564A86ED28062C2200A4090D /* td-take-home-project */ = {
 			isa = PBXGroup;
 			children = (
+				564A87122808D86400A4090D /* Products */,
+				564A870D2808D4EA00A4090D /* Helper */,
+				564A87082808CFA500A4090D /* Model */,
+				564A87052808CF2400A4090D /* Service */,
+				564A87022808CE9A00A4090D /* Categories */,
 				564A86EE28062C2200A4090D /* AppDelegate.swift */,
 				564A86F028062C2200A4090D /* SceneDelegate.swift */,
-				564A86F228062C2200A4090D /* ViewController.swift */,
-				564A86F428062C2200A4090D /* Main.storyboard */,
 				564A86F728062C2300A4090D /* Assets.xcassets */,
 				564A86F928062C2300A4090D /* LaunchScreen.storyboard */,
 				564A86FC28062C2300A4090D /* Info.plist */,
+				564A87152808E8C400A4090D /* README.md */,
 			);
 			path = "td-take-home-project";
+			sourceTree = "<group>";
+		};
+		564A87022808CE9A00A4090D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				564A86F228062C2200A4090D /* CategoriesViewController.swift */,
+				564A87032808CEAB00A4090D /* CategoriesViewModel.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		564A87052808CF2400A4090D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				564A87062808CF3300A4090D /* ShopService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		564A87082808CFA500A4090D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				564A87092808CFAE00A4090D /* Category.swift */,
+				564A870B2808CFD500A4090D /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		564A870D2808D4EA00A4090D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				564A870E2808D50000A4090D /* View+ConstraintHelpers.swift */,
+				564A87102808D80200A4090D /* NavigationHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		564A87122808D86400A4090D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564A87132808DEDB00A4090D /* ProductsViewController.swift */,
+				564A87172808E8D600A4090D /* ProductsViewModel.swift */,
+			);
+			path = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +189,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564A87162808E8C400A4090D /* README.md in Resources */,
 				564A86FB28062C2300A4090D /* LaunchScreen.storyboard in Resources */,
 				564A86F828062C2300A4090D /* Assets.xcassets in Resources */,
-				564A86F628062C2200A4090D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +202,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				564A86F328062C2200A4090D /* ViewController.swift in Sources */,
+				564A86F328062C2200A4090D /* CategoriesViewController.swift in Sources */,
+				564A87182808E8D600A4090D /* ProductsViewModel.swift in Sources */,
 				564A86EF28062C2200A4090D /* AppDelegate.swift in Sources */,
+				564A87072808CF3300A4090D /* ShopService.swift in Sources */,
+				564A87042808CEAB00A4090D /* CategoriesViewModel.swift in Sources */,
+				564A87142808DEDB00A4090D /* ProductsViewController.swift in Sources */,
 				564A86F128062C2200A4090D /* SceneDelegate.swift in Sources */,
+				564A870F2808D50000A4090D /* View+ConstraintHelpers.swift in Sources */,
+				564A870A2808CFAE00A4090D /* Category.swift in Sources */,
+				564A87112808D80200A4090D /* NavigationHelper.swift in Sources */,
+				564A870C2808CFD500A4090D /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		564A86F428062C2200A4090D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				564A86F528062C2200A4090D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		564A86F928062C2300A4090D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +358,6 @@
 				INFOPLIST_FILE = "td-take-home-project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +369,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +385,6 @@
 				INFOPLIST_FILE = "td-take-home-project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +396,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
